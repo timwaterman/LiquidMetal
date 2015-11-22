@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2258546C1C017D8400799FFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258546B1C017D8400799FFB /* AppDelegate.swift */; };
+		2258546E1C017D8400799FFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258546D1C017D8400799FFB /* ViewController.swift */; };
+		225854711C017D8400799FFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2258546F1C017D8400799FFB /* Main.storyboard */; };
+		225854731C017D8400799FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225854721C017D8400799FFB /* Assets.xcassets */; };
+		225854761C017D8400799FFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225854741C017D8400799FFB /* LaunchScreen.storyboard */; };
+		225854811C017D8400799FFB /* LiquidMetalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225854801C017D8400799FFB /* LiquidMetalTests.swift */; };
+		2258548C1C017D8400799FFB /* LiquidMetalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258548B1C017D8400799FFB /* LiquidMetalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2258547D1C017D8400799FFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 225854601C017D8400799FFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 225854671C017D8400799FFB;
+			remoteInfo = LiquidMetal;
+		};
+		225854881C017D8400799FFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 225854601C017D8400799FFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 225854671C017D8400799FFB;
+			remoteInfo = LiquidMetal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		225854681C017D8400799FFB /* LiquidMetal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidMetal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2258546B1C017D8400799FFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2258546D1C017D8400799FFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		225854701C017D8400799FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		225854721C017D8400799FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		225854751C017D8400799FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		225854771C017D8400799FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2258547C1C017D8400799FFB /* LiquidMetalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiquidMetalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		225854801C017D8400799FFB /* LiquidMetalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidMetalTests.swift; sourceTree = "<group>"; };
+		225854821C017D8400799FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		225854871C017D8400799FFB /* LiquidMetalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiquidMetalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2258548B1C017D8400799FFB /* LiquidMetalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidMetalUITests.swift; sourceTree = "<group>"; };
+		2258548D1C017D8400799FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		225854651C017D8400799FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		225854791C017D8400799FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		225854841C017D8400799FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2258545F1C017D8400799FFB = {
+			isa = PBXGroup;
+			children = (
+				2258546A1C017D8400799FFB /* LiquidMetal */,
+				2258547F1C017D8400799FFB /* LiquidMetalTests */,
+				2258548A1C017D8400799FFB /* LiquidMetalUITests */,
+				225854691C017D8400799FFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		225854691C017D8400799FFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				225854681C017D8400799FFB /* LiquidMetal.app */,
+				2258547C1C017D8400799FFB /* LiquidMetalTests.xctest */,
+				225854871C017D8400799FFB /* LiquidMetalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2258546A1C017D8400799FFB /* LiquidMetal */ = {
+			isa = PBXGroup;
+			children = (
+				2258546B1C017D8400799FFB /* AppDelegate.swift */,
+				2258546D1C017D8400799FFB /* ViewController.swift */,
+				2258546F1C017D8400799FFB /* Main.storyboard */,
+				225854721C017D8400799FFB /* Assets.xcassets */,
+				225854741C017D8400799FFB /* LaunchScreen.storyboard */,
+				225854771C017D8400799FFB /* Info.plist */,
+			);
+			path = LiquidMetal;
+			sourceTree = "<group>";
+		};
+		2258547F1C017D8400799FFB /* LiquidMetalTests */ = {
+			isa = PBXGroup;
+			children = (
+				225854801C017D8400799FFB /* LiquidMetalTests.swift */,
+				225854821C017D8400799FFB /* Info.plist */,
+			);
+			path = LiquidMetalTests;
+			sourceTree = "<group>";
+		};
+		2258548A1C017D8400799FFB /* LiquidMetalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2258548B1C017D8400799FFB /* LiquidMetalUITests.swift */,
+				2258548D1C017D8400799FFB /* Info.plist */,
+			);
+			path = LiquidMetalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		225854671C017D8400799FFB /* LiquidMetal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 225854901C017D8400799FFB /* Build configuration list for PBXNativeTarget "LiquidMetal" */;
+			buildPhases = (
+				225854641C017D8400799FFB /* Sources */,
+				225854651C017D8400799FFB /* Frameworks */,
+				225854661C017D8400799FFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiquidMetal;
+			productName = LiquidMetal;
+			productReference = 225854681C017D8400799FFB /* LiquidMetal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2258547B1C017D8400799FFB /* LiquidMetalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 225854931C017D8400799FFB /* Build configuration list for PBXNativeTarget "LiquidMetalTests" */;
+			buildPhases = (
+				225854781C017D8400799FFB /* Sources */,
+				225854791C017D8400799FFB /* Frameworks */,
+				2258547A1C017D8400799FFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2258547E1C017D8400799FFB /* PBXTargetDependency */,
+			);
+			name = LiquidMetalTests;
+			productName = LiquidMetalTests;
+			productReference = 2258547C1C017D8400799FFB /* LiquidMetalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		225854861C017D8400799FFB /* LiquidMetalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 225854961C017D8400799FFB /* Build configuration list for PBXNativeTarget "LiquidMetalUITests" */;
+			buildPhases = (
+				225854831C017D8400799FFB /* Sources */,
+				225854841C017D8400799FFB /* Frameworks */,
+				225854851C017D8400799FFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				225854891C017D8400799FFB /* PBXTargetDependency */,
+			);
+			name = LiquidMetalUITests;
+			productName = LiquidMetalUITests;
+			productReference = 225854871C017D8400799FFB /* LiquidMetalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		225854601C017D8400799FFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Tim;
+				TargetAttributes = {
+					225854671C017D8400799FFB = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					2258547B1C017D8400799FFB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 225854671C017D8400799FFB;
+					};
+					225854861C017D8400799FFB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 225854671C017D8400799FFB;
+					};
+				};
+			};
+			buildConfigurationList = 225854631C017D8400799FFB /* Build configuration list for PBXProject "LiquidMetal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2258545F1C017D8400799FFB;
+			productRefGroup = 225854691C017D8400799FFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				225854671C017D8400799FFB /* LiquidMetal */,
+				2258547B1C017D8400799FFB /* LiquidMetalTests */,
+				225854861C017D8400799FFB /* LiquidMetalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		225854661C017D8400799FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225854761C017D8400799FFB /* LaunchScreen.storyboard in Resources */,
+				225854731C017D8400799FFB /* Assets.xcassets in Resources */,
+				225854711C017D8400799FFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2258547A1C017D8400799FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		225854851C017D8400799FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		225854641C017D8400799FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2258546E1C017D8400799FFB /* ViewController.swift in Sources */,
+				2258546C1C017D8400799FFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		225854781C017D8400799FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225854811C017D8400799FFB /* LiquidMetalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		225854831C017D8400799FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2258548C1C017D8400799FFB /* LiquidMetalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2258547E1C017D8400799FFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 225854671C017D8400799FFB /* LiquidMetal */;
+			targetProxy = 2258547D1C017D8400799FFB /* PBXContainerItemProxy */;
+		};
+		225854891C017D8400799FFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 225854671C017D8400799FFB /* LiquidMetal */;
+			targetProxy = 225854881C017D8400799FFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2258546F1C017D8400799FFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				225854701C017D8400799FFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		225854741C017D8400799FFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				225854751C017D8400799FFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2258548E1C017D8400799FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2258548F1C017D8400799FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		225854911C017D8400799FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiquidMetal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.LiquidMetal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		225854921C017D8400799FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiquidMetal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.LiquidMetal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		225854941C017D8400799FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiquidMetalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.LiquidMetalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiquidMetal.app/LiquidMetal";
+			};
+			name = Debug;
+		};
+		225854951C017D8400799FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiquidMetalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.LiquidMetalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiquidMetal.app/LiquidMetal";
+			};
+			name = Release;
+		};
+		225854971C017D8400799FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LiquidMetalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.LiquidMetalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LiquidMetal;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		225854981C017D8400799FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LiquidMetalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.LiquidMetalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LiquidMetal;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		225854631C017D8400799FFB /* Build configuration list for PBXProject "LiquidMetal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2258548E1C017D8400799FFB /* Debug */,
+				2258548F1C017D8400799FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		225854901C017D8400799FFB /* Build configuration list for PBXNativeTarget "LiquidMetal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225854911C017D8400799FFB /* Debug */,
+				225854921C017D8400799FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		225854931C017D8400799FFB /* Build configuration list for PBXNativeTarget "LiquidMetalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225854941C017D8400799FFB /* Debug */,
+				225854951C017D8400799FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		225854961C017D8400799FFB /* Build configuration list for PBXNativeTarget "LiquidMetalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225854971C017D8400799FFB /* Debug */,
+				225854981C017D8400799FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 225854601C017D8400799FFB /* Project object */;
+}
